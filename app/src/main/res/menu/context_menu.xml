@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu1"
+        android:title="Menu A" />
+    <item android:id="@+id/menu2"
+        android:title="Menu B" />
+    <item android:id="@+id/menu3"
+        android:title="Menu C" />
+    <item android:id="@+id/menu4"
+        android:title="@string/string_name">
+        <menu>
+         <item android:id="@+id/venkat"
+        android:icon="@drawable/ic_launcher_foreground"
+             android:iconTint="@color/black"
+        android:title="Project Venkat" />
+        </menu>
+    </item>
+</menu>
